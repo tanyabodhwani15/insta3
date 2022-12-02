@@ -14,7 +14,7 @@ import requests
 #lottie_animation1 = 'https://assets8.lottiefiles.com/private_files/lf30_5jrklsmp.json'
 #lottie123 = load_lottieurl(lottie_animation1)
 st.title("WELCOME TO MY WEB APP")
-st.tabs("INSTAGRAM REACH ANALYSIS")
+st.subheader("INSTAGRAM REACH ANALYSIS")
 #st.markup("giphy.gif")
 #st_lottie(lottie123, key='hello')
 file_ = open("giphy.gif", "rb")
