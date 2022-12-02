@@ -1,6 +1,7 @@
 import streamlit as st
 import base64
 import requests
+import webbrowser
 #from streamlit_lottie import st_lottie
 
 
