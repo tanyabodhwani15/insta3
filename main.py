@@ -28,7 +28,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 link1 = '(https://tanyabodhwani15-insta3-pagesapp-skazw5.streamlit.app/)'
+link1 = '[click here](https://tanyabodhwani15-insta3-pagesapp-skazw5.streamlit.app/)'
+        st.markdown(link1, unsafe_allow_html=True)
 
 if st.button('Click Here For Prediction'):
-    webbrowser.open_new_tab(url)
+    webbrowser.open_new_tab(link1)
 
