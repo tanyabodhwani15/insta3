@@ -29,7 +29,7 @@ st.markdown(
 )
 
 link1 = '[click here](https://tanyabodhwani15-insta3-pagesapp-skazw5.streamlit.app/)'
-    st.markdown(link1, unsafe_allow_html=True)
+st.markdown(link1, unsafe_allow_html=True)
 
 
 
