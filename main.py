@@ -27,7 +27,7 @@ st.markdown(
     f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
     unsafe_allow_html=True,
 )
-url = 'https://tanyabodhwani15-insta3-pagesapp-skazw5.streamlit.app/'
+link1 = '(https://tanyabodhwani15-insta3-pagesapp-skazw5.streamlit.app/)'
 
 if st.button('Click Here For Prediction'):
     webbrowser.open_new_tab(url)
